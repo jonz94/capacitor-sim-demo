@@ -47,3 +47,7 @@ npx ionic cap run ios
 ## License
 
 See [LICENSE](https://github.com/jonz94/capacitor-sim-demo/blob/main/LICENSE).
+
+## Credits
+
+This README is modified from https://github.com/robingenz/capacitor-plugin-demo.
