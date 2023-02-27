@@ -14,32 +14,32 @@ A demo project for [@jonz94/capacitor-sim](https://github.com/jonz94/capacitor-s
 
 Clone this repository:
 
-```console
+```
 git clone https://github.com/jonz94/capacitor-sim-demo.git
 ```
 
 Change to the root directory of the project:
 
-```console
+```
 cd capacitor-sim-demo
 ```
 
 Install all dependencies:
 
-```console
+```
 npm i
 ```
 
 Prepare and launch the Android app:
 
-```console
+```
 npx ionic cap sync android
 npx ionic cap run android
 ```
 
 Prepare and launch the iOS app:
 
-```console
+```
 npx ionic cap sync ios
 npx ionic cap run ios
 ```
