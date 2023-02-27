@@ -14,9 +14,16 @@
 
       <ion-button class="font-mono normal-case" (click)="getSimCards()">getSimCards()</ion-button>
 
-      <div *ngIf="simCards.length > 0">
-        <p>Result:</p>
-        <pre>{{ simCards | json }}</pre>
+      <div *ngIf="simCards">
+        <ng-container *ngIf="simCards.length > 0; else noSimCard">
+          <p>Result:</p>
+          <pre>{{ simCards | json }}</pre>
+        </ng-container>
+
+        <ng-template #noSimCard>
+          <p>Result:</p>
+          <p>No Sim Card on this device.</p>
+        </ng-template>
       </div>
     </div>
   </ion-content>

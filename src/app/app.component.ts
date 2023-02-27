@@ -12,7 +12,7 @@ import { from, map } from 'rxjs';
   imports: [IonicModule, NgIf, AsyncPipe, JsonPipe],
 })
 export class AppComponent {
-  protected simCards: SimCard[] = [];
+  protected simCards: SimCard[] | null = null;
 
   protected basicDeviceInformation$ = from(Device.getInfo()).pipe(
     map(
