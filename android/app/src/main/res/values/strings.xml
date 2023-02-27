@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Sim Demo</string>
+    <string name="title_activity_main">Sim Demo</string>
+    <string name="package_name">dev.jonz94.capacitorjs.demo.sim</string>
+    <string name="custom_url_scheme">dev.jonz94.capacitorjs.demo.sim</string>
+</resources>

@@ -1,0 +1,18 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Capacitor Sim Demo</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <div class="flex min-h-full flex-col items-start p-8">
+      <ion-button class="font-mono normal-case" (click)="getSimCards()">getSimCards()</ion-button>
+
+      <div *ngIf="simCards.length > 0" class="mt-4">
+        <p>Result:</p>
+        <pre>{{ simCards | json }}</pre>
+      </div>
+    </div>
+  </ion-content>
+</ion-app>
