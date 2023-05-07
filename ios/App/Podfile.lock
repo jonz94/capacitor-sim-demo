@@ -1,0 +1,34 @@
+PODS:
+  - Capacitor (5.0.1):
+    - CapacitorCordova
+  - CapacitorCordova (5.0.1)
+  - CapacitorDevice (5.0.1):
+    - Capacitor
+  - Jonz94CapacitorSim (2.0.0):
+    - Capacitor
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
+  - "Jonz94CapacitorSim (from `../../node_modules/@jonz94/capacitor-sim`)"
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../node_modules/@capacitor/device"
+  Jonz94CapacitorSim:
+    :path: "../../node_modules/@jonz94/capacitor-sim"
+
+SPEC CHECKSUMS:
+  Capacitor: c550a8485d00d5d92b4f91a245f43555a2230eb6
+  CapacitorCordova: 4f8cf089c691f0e21032d22b1014808308cbc467
+  CapacitorDevice: 4fa6c8287d267fec28e5dccb510cd533c9ed0f1d
+  Jonz94CapacitorSim: bf15d9282f7517a9512323ecb6b732f8ff53602c
+
+PODFILE CHECKSUM: 7e7ae4cada063035f424d27db49c3b766e2d70d9
+
+COCOAPODS: 1.12.1
