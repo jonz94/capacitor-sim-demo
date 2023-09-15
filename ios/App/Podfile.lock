@@ -1,8 +1,8 @@
 PODS:
-  - Capacitor (5.0.1):
+  - Capacitor (5.4.0):
     - CapacitorCordova
-  - CapacitorCordova (5.0.1)
-  - CapacitorDevice (5.0.1):
+  - CapacitorCordova (5.4.0)
+  - CapacitorDevice (5.0.6):
     - Capacitor
   - Jonz94CapacitorSim (2.0.0):
     - Capacitor
@@ -24,9 +24,9 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@jonz94/capacitor-sim"
 
 SPEC CHECKSUMS:
-  Capacitor: c550a8485d00d5d92b4f91a245f43555a2230eb6
-  CapacitorCordova: 4f8cf089c691f0e21032d22b1014808308cbc467
-  CapacitorDevice: 4fa6c8287d267fec28e5dccb510cd533c9ed0f1d
+  Capacitor: a5cd803e02b471591c81165f400ace01f40b11d3
+  CapacitorCordova: 66ce22f9976de30fd816f746e9e92e07d6befafd
+  CapacitorDevice: 2c968f98a1ec4d22357418c1521e7ddc46c675e6
   Jonz94CapacitorSim: bf15d9282f7517a9512323ecb6b732f8ff53602c
 
 PODFILE CHECKSUM: 7e7ae4cada063035f424d27db49c3b766e2d70d9
