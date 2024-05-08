@@ -1,8 +1,4 @@
 *.md
 .angular/
-.idea/
 android/
 ios/
-node_modules/
-www/
-package-lock.json

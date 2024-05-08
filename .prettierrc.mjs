@@ -1,10 +1,6 @@
 /** @type {import('prettier').Config} */
-module.exports = {
-  bracketSameLine: false,
-  semi: true,
+const config = {
   singleQuote: true,
-  trailingComma: 'all',
-  arrowParens: 'always',
   printWidth: 120,
 
   attributeGroups: [
@@ -20,12 +16,7 @@ module.exports = {
     '$ANGULAR_OUTPUT',
   ],
 
-  pluginSearchDirs: false,
-  plugins: [
-    require('prettier-plugin-packagejson'),
-    require('prettier-plugin-organize-attributes'),
-    require('prettier-plugin-organize-imports'),
-  ],
+  plugins: ['prettier-plugin-packagejson', 'prettier-plugin-organize-attributes', 'prettier-plugin-organize-imports'],
 
   overrides: [
     {
@@ -34,5 +25,13 @@ module.exports = {
         parser: 'angular',
       },
     },
+    {
+      files: 'tsconfig*.json',
+      options: {
+        parser: 'jsonc',
+      },
+    },
   ],
 };
+
+export default config;
