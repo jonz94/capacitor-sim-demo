@@ -17,7 +17,7 @@ export class AppComponent {
   protected basicDeviceInformation$ = from(Device.getInfo()).pipe(
     map(
       ({ platform, osVersion, manufacturer, model }) =>
-        ({ platform, osVersion, manufacturer, model } satisfies Partial<DeviceInfo>),
+        ({ platform, osVersion, manufacturer, model }) satisfies Partial<DeviceInfo>,
     ),
   );
 
