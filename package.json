@@ -22,7 +22,7 @@
     "@capacitor/core": "^5.7.5",
     "@capacitor/device": "^5.0.7",
     "@capacitor/ios": "^5.7.5",
-    "@ionic/angular": "^7.8.6",
+    "@ionic/angular": "^8.1.0",
     "@jonz94/capacitor-sim": "^2.0.0",
     "ionicons": "^7.1.2",
     "rxjs": "^7.8.1",
